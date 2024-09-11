@@ -1,0 +1,14 @@
+A scope is the range within the program for which the item is valid ===global scope and local scope .
+
+fn main() {
+    
+    let  x:i32=5;
+    let y:i32=10;
+    
+    {
+        println! ("the value of x= {} and the value of y= {} " ,x ,y);
+    }
+   
+    println!("the value of x= {} and the value of y= {} " ,x ,y);
+}
+   
